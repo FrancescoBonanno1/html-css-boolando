@@ -70,10 +70,25 @@ main{
     flex-wrap: wrap;
 }
 main img{
+    position: relative;
     z-index: 1;
+}
+.cuoricino{
+    color: rgb(41, 41, 41);
+    font-size: 130%;
+    background-color: white;
+    padding: 2% 3%;
+    position: absolute;
+    z-index: 3;
+    left:73%;
+    top: 2%;
+}
+.cuoricino :hover{
+    color: rgb(190, 1, 1);
 }
 main img:hover{
 background-image: url(../img/1b.webp);
+position: absolute;
 z-index: 2;
 }
 .itemdescription h2 .marca .redprice .discount{
@@ -126,4 +141,29 @@ z-index: 2;
     left: 20%;
     top: 73%;
     z-index: 3;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+
+}
+footer a:hover{
+    color: aquamarine;
+}
+footer{
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer h2{
+    color: white;
+    font-family: sans-serif;
+}
+h3{
+    color: white;
+    font-family: sans-serif;
 }
